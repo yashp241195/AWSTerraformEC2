@@ -10,6 +10,9 @@ $ terraform apply
 
 $ terraform destroy
 
+inside main.tf
+
+```
 /*
 // static way, just for testing purpose, not recommended always use
 // environment variables in order to avoid accidental security key leak
@@ -52,3 +55,4 @@ output "ec2create" {
 
     EOT
 }
+```
